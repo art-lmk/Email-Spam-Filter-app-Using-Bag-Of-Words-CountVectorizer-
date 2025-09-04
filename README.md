@@ -26,5 +26,6 @@ The model then compares these words to what it learned from the examples.
 
 It adds up the clues: "Hmm, this new email has the words 'WINNER', 'FREE', and 'prize' 10 times. That sounds a lot like the spam emails I learned from. I think this is probably spam!"
 
-!pip install pyngrok(Thhis is how you deploy the model via ngrok server. First run the command to install ngrok.)
+!pip install pyngrok: 
+(Thhis is how you deploy the model via ngrok server. First run the command to install ngrok.)
 Then store your NGROK_TOKEN in Colab Secrets. Authenticate the NGROK_TOKEN and connect to the streamlit port(8501) to get the public url which you can use to access the stramlit app built.
